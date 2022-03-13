@@ -24,7 +24,7 @@ public class ProdutosTest {
         navegador.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 
         //Navegar para a página da lojinha web
-        navegador.get("http://165.227.93.41/lojinha-web/v2/");
+        navegador.get("http://165.227.93.41/lojinha-web-bugada/v2/");
     }
 
     @Test
