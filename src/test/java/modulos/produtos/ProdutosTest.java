@@ -1,7 +1,6 @@
 package modulos.produtos;
 
 import org.junit.jupiter.api.*;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import paginas.LoginPage;
@@ -30,7 +29,6 @@ public class ProdutosTest {
     @Test
     @DisplayName("Não é permitido registrar um produto com valor igual a zero")
     public void NaoEPermitidoRegistrarProdutoComValorIgualAZero() {
-        //Fazer login
 
         String mensagemApresentada = new LoginPage(navegador)
                 .preencherUsuario("admin")
